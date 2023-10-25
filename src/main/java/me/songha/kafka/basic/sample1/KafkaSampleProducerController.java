@@ -1,10 +1,10 @@
-package me.songha.kafka.basic;
+package me.songha.kafka.basic.sample1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 public class KafkaSampleProducerController {
     
     @Autowired
